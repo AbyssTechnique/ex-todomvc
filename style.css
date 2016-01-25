@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.wrapper input, .wrapper ul {
+  width: 100%;
+  padding-left: 0;
+}
+.wrapper li {
+  list-style-type: none;
+  border: black 1px solid;
+  text-align: center;
+  margin-top: 5px;
+}
+.wrapper li input {
+  width: 20%;
+  padding-right: 0;
+  float: left;
+  max-height: 18px;
+}
+#close {
+  float:right;
+  display:inline-block;
+  background: white;
+  padding-right: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  max-height: 100%;
+}
